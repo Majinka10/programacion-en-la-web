@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo{
+    width: 600px;
+    height: 400px;
+    background-image: url(imagen/lhd-model-3-social.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fondo h1{
+    color: black;
+    font-size: 60px;
+}
