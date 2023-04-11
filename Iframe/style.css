@@ -1,0 +1,55 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgb(204, 255, 0);
+    color: black;
+}
+
+.column.middle {
+    width: 48%;
+}
+
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column.middle {
+      width: 100%;
+    }
+}
+
+.footer{
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+}
