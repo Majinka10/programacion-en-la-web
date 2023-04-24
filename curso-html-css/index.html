@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CarApp</title>
+    <style>
+      h1 {
+        color: palegreen;
+      }
+
+      h2 {
+        color:gold;
+      }
+
+      p{
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AppDeCarros</h1>
+    <main>
+      <h2>Imágenes de Carros</h2>
+      <p>Haz click aquí para ver más 
+       <a href="#" target="_blank" rel="noopener noreferrer">imágenes de carros.</a></p>
+
+      <hr>
+
+      <img src="https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg" alt="Tesla Model 3 panomarica" style="width: 600px;">
+
+      <h3>Listas de carros</h3>
+
+      <div>
+        <p>Los carros que me gustan</p>
+        <ul>
+          <li>Tesla Model 3</li>
+            <a href="#"><img src="img/tesla-model-3.jpg" alt="Tesla Model 3" style="width: 600px;"></a>
+          <li>Tesla Model S</li>
+          <li>Toyota Supra MK4</li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Carros que <strong>no</strong> me <em>gustan</em></p>
+
+        <ol>
+          <li>Spark GT</li>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_658284-MCO54436421252_032023-O.jpg" alt="Spark GT Ltz">
+          <li><s>Captiva</s></li>
+        </ol>
+      </div>
+
+      <form action="/enviar-respuesta">
+        <!-- Botones de radio -->
+        <label for="electrico"><input type="radio" id="electrico" name="electrico-gasolina" value="electrico" checked>Eléctrico</label><br>
+
+        <label for="gasolina"><input type="radio" id="gasolina" name="electrico-gasolina" value="gasolina">Gasolina</label><br>
+
+        <!-- Casillas de verificación -->
+        <label for="sedan"><input type="checkbox" name="tipo-carroceria" id="sedan" value="sedan" checked>Sedan</label><br>
+
+        <label for="hatch-back"><input type="checkbox" name="tipo-carroceria" id="hatch-back" value="sedan">Hatch-Back</label><br>
+
+        <label for="suv"><input type="checkbox" name="tipo-carroceria" id="suv" value="sedan">SUV</label><br>
+
+        <!-- Texto y botón de Enviar -->
+        <input type="text" placeholder="Tu carro favorito"
+        required><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="https://www.tesla.com" target="_blank">tesla.com</a></small></p>
+    </footer>
+  </body>
+</html>

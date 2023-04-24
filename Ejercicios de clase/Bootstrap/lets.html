@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>My First Bootstrap Page</h1>
+    <p>Resize this responsive page to see the effect!</p> 
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Column 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 3</h3>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <!--
+      -->
+      <div class="carousel-item active">
+        <img src="img/Model-S-Main-Hero-Desktop-LHD.webp" alt="Tesla Model S" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Tesla Model S</h3>
+          <p>The Model S features a battery-powered dual-motor, all-wheel drive layout, although earlier versions featured a rear-motor and rear-wheel drive layout.</p>
+        </div> 
+      </div>
+      <div class="carousel-item ">
+        <img src="img/Model-3-Main-Hero-Desktop-LHD.jpeg" alt="Tesla Model 3" class="d-block" style="width:100%" >
+        <div class="carousel-caption">
+          <h3>Tesla Model 3</h3>
+          <p>Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and Performance Brakes for total control in all weather conditions.</p>
+        </div>
+      </div> 
+      <div class="carousel-item">
+        <img src="img/model-x.webp" alt="Tesla Model X" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Tesla Model X</h3>
+          <p>Tesla Model X is a dual-motor, all-wheel-drive battery-electric SUV available in Model X and Model X Plaid trim levels.</p>
+        </div>  
+      </div>
+      <div class="carousel-item ">
+        <img src="img/Model-Y-Main-Hero-Desktop-Global.jpeg" alt="Tesla Model Y" class="d-block" style="width:100%" >
+        <div class="carousel-caption">
+          <h3>Tesla Model Y</h3>
+          <p>The Tesla Model Y is an all-electric SUV and the fourth model in Tesla's lineup, slotting underneath the Model X and offering a more spacious.</p>
+        </div>
+       </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  </body>
+  </html>
