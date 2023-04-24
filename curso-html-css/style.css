@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, p {
+  font-family: 'Bruno Ace SC', cursive;
+}
