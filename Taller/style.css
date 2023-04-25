@@ -26,6 +26,10 @@ header h1 {
     flex-wrap: wrap;
 }
 
+#login img{
+    padding-top: 18px;
+}
+
 #logo, #login {
     flex: 10px;
     width: 15%;
@@ -45,7 +49,7 @@ nav, footer {
     justify-content: center;
 }
 
-nav a, footer a {
+nav a {
     color: white;
     padding: 14px 20px;
     text-decoration: none;
@@ -70,7 +74,7 @@ aside {
     border-color: black;
 }
 
-aside img{
+#derecho img{
     height: 30px;
     width: 30px;
 }
@@ -91,6 +95,18 @@ cuando el ancho sea menor a 700px */
     nav, .row{
         flex-direction: column;
     }
+    #derecho {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #derecho a {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+    }
+
 }
 
 /* Esta query hace que el fondo del header se vuelva de color
@@ -106,13 +122,12 @@ purple cuando el ancho sea menor a 580px */
 
 footer{
     padding: 20px;
-    text-align: center;
     background-color: orange;
     height: 7vh;
 }
 
 footer a {
     color: white;
-    padding: 5px 8px;
+    padding:0px 8px;
     text-decoration: none;
 }

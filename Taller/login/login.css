@@ -1,0 +1,26 @@
+.frmingreso{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  input { 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  .btnenviar {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .btnenviar:hover { 
+    background-color: #59BDF2; 
+    color: white; 
+  }
