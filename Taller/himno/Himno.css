@@ -1,0 +1,15 @@
+.Contenedor {
+    display: flexbox;
+    text-align: center;
+
+}
+
+.Contenedor > p {
+    width: 250px;
+    margin: auto;
+}
+
+.Contenedor > p::first-letter {
+    font-size: 25px;
+    color: red;
+}

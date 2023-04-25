@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color:white;
+    text-align: left;
+    background-color: grey;
+}
+
