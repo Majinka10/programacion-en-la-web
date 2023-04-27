@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de estatura</title>
+    <script src="formula.js"></script>
+    <style>
+        /* Estilo para que las cajitas queden un poco separadas */
+        form input, button {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calcula la estatura</h2>
+    <!-- Código del formulario -->
+    <form>
+        <label for="edad">
+            <input type="number" placeholder="Ingresa tu edad" id="edad" name="edad">
+        </label>
+        <label for="talla">
+            <input type="number" name="talla" id="talla" placeholder="Ingresa tu talla">
+        </label>
+        <!-- En onclick se pone solamente la funciones, para que la ejecute -->
+        <button type="submit" onclick="estatura()" name="formulario-estatura">Enviar</button>
+    </form>
+</body>
+</html>
