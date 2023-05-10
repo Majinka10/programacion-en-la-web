@@ -1,0 +1,32 @@
+div {
+    border-color: black;
+    border-style: solid;
+}
+
+/* Utilizando padding
+
+img {
+    padding: 20px 15px 5px 10px;
+    background-color: purple;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+} */
+
+/* Utilizando margin
+
+img {
+    margin: 15px 10px;
+    background-color:yellow;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+} */
+
+/* img {
+    margin: 25px;
+    padding: 25px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+} */

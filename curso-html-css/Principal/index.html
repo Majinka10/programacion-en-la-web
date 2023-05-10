@@ -11,7 +11,7 @@
     <title>CarApp</title>
   </head>
   <body>
-    <h1>AppDeCarros</h1>
+    <h1 id="titulo-principal">AppDeCarros</h1>
     <main>
       <h2>Imágenes de Carros</h2>
       <p>Haz click aquí para ver más 
@@ -19,26 +19,26 @@
 
       <hr>
 
-      <img src="https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg" alt="Tesla Model 3 panomarica" style="width: 600px;">
+      <img class="imagen-de-tesla"src="https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg" alt="Tesla Model 3 panomarica">
 
       <h3>Listas de carros</h3>
 
-      <div>
+      <div class="contenedor-listas">
         <p>Los carros que me gustan</p>
-        <ul class="lista-de-carros">
-          <li>Tesla Model 3</li>
-            <a href="#"><img src="img/tesla-model-3.jpg" alt="Tesla Model 3" style="width: 600px;"></a>
+        <ul id="lista-me-gustan">
           <li>Tesla Model S</li>
           <li>Toyota Supra MK4</li>
+          <li><s>Tesla Model 3</s></li>
         </ul>
+        <a href="#"><img class="imagen-de-tesla" src="img/tesla-model-3.jpg" alt="Tesla Model 3"></a>
       </div>
 
       <div>
         <p>Carros que <strong>no</strong> me <em>gustan</em></p>
 
-        <ol class="lista-de-carros">
+        <ol id="lista-no-gustar">
           <li>Spark GT</li>
-            <img src="https://http2.mlstatic.com/D_NQ_NP_658284-MCO54436421252_032023-O.jpg" alt="Spark GT Ltz">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_658284-MCO54436421252_032023-O.jpg" alt="Spark GT Ltz" id="imagen-spark-gt">
           <li><s>Captiva</s></li>
         </ol>
       </div>
