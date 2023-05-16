@@ -5,3 +5,54 @@ body{
     color: chocolate;
 } */
 
+/* Si se aplican dos clases a un mismo elemento, se va a aplicar la última que esté en el archivo CSS*/
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-morado{
+    color: purple;
+}
+
+/* Las clases tienen prioridad por encima de los selectores de tipo
+
+.sin-subrayado{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: purple wavy underline;
+} */
+
+img{
+    width: 40vw;
+}
+
+/* Los ID tienen prioridad sobre las clases y sobre los selectores. Básicamente ID>Class>Selector */
+
+#titulo{
+    color: purple;
+}
+
+.texto-rojo{
+    color: red;
+}
+
+.sin-subrayado{
+    text-decoration: none;
+    color: blue;
+}
+
+#enlace-principal{
+    color: green;
+    text-decoration: green wavy underline;
+}
+
+.texto-verde{
+    color: green;
+}
+
+#titulo-prueba{
+    color: black;
+}

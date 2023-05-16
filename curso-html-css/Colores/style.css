@@ -1,0 +1,19 @@
+/* Utilizando Hexagecimal */
+
+h2{
+    color:#eba234;
+}
+
+img{
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #eb403436;
+}
+
+/* Utilizando RGB */
+
+a{
+    color: rgb(255, 0, 255); 
+}
+
