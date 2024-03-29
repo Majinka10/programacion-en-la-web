@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+Ejercicios de clase/my-react-app/package-lock.json
+
 # dependencies
-package-lock.json
 /node_modules
 /.pnp
 .pnp.js
